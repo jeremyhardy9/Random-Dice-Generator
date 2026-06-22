@@ -2,6 +2,8 @@
 
 A bare-metal C project for the STM32F4 microcontroller that simulates rolling a pair of dice. It features custom graphical dice faces generated on a character LCD display, rolling animations, and low-overhead pseudo-random number generation using a Linear Feedback Shift Register (LFSR).
 
+To find main.c:  Core->Src->main.c
+
 ## Features
 
 * **Hardware Interrupt Trigger:** Pressing a button connected to `PB9` triggers an external interrupt (`EXTI9_5`), prompting a new dice roll.
