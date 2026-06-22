@@ -2,7 +2,7 @@
 
 A bare-metal C project for the STM32F4 microcontroller that simulates rolling a pair of dice. It features custom graphical dice faces generated on a character LCD display, rolling animations, and low-overhead pseudo-random number generation using a Linear Feedback Shift Register (LFSR).
 
-To find main.c:  Core->Src->main.c
+To find main.c:  RandomDiceGenerator->Core->Src->main.c
 
 ## Features
 
