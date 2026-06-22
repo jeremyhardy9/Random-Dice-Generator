@@ -27,7 +27,7 @@ The project assumes an **STM32F411RE series microcontroller** wired up to a stan
 
 ---
 
-## 🎲 Dice Rendering Logic
+## Dice Rendering Logic
 
 Standard character displays do not natively support graphical dice. To solve this, the firmware breaks each die down into a **3x2 character grid** and designs custom pixel-map arrays to build the pips:
 
@@ -37,7 +37,7 @@ Standard character displays do not natively support graphical dice. To solve thi
 
 ---
 
-## 💻 Deep Dive into Key Components
+## Deep Dive into Key Components
 
 ### 1. Pseudo-Random Number Generation (LFSR)
 The LFSR taps bits 0, 1, 21, and 31 to maintain excellent statistical randomness without requiring a heavy math or hardware RNG library:
